@@ -1,5 +1,5 @@
 import React from "react";
-import "./HomePage.css"; // Import the CSS you saved earlier
+import "./componentCSS/HomePage.css"; // Import the CSS you saved earlier
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./Slides.jsx"
 import {

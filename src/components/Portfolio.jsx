@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
-import "./Portfolio.css";
+import "./componentCSS/portfolio.css";
 import {Link} from "react-router-dom";
 
 const portfolioItems = [
