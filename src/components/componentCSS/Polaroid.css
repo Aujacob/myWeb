@@ -1,0 +1,19 @@
+.polaroid-gallery {
+  min-height: 100vh;
+  background-color: #fdfaf6;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.polaroid-card {
+  background-color: #fff;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.polaroid-image {
+  max-height: 400px;
+  max-width: 90%;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}

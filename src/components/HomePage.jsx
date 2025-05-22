@@ -2,6 +2,7 @@ import React from "react";
 import "./componentCSS/HomePage.css"; // Import the CSS you saved earlier
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./Slides.jsx"
+import {Link} from "react-router-dom";
 import {
   FaInstagram,
   FaTwitter,
@@ -38,6 +39,7 @@ const HomePage = () => {
           I’m always open to discussing my projects or potential job opportunities. <br/>Feel free to reach out!
         </div>
         <div className="btn-group">
+          
           <Button variant="outline-dark" href="/resume.pdf">
             Portfolio
           </Button>

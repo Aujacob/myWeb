@@ -44,7 +44,7 @@ const Portfolio = () => {
         />
         
         <h1 className="portfolio-title">Augustine Jacob</h1>
-        <p className="portfolio-subtitle">Artist Portfolio</p>
+        <p className="portfolio-subtitle">Artistic Portfolio</p>
         <Button href="/" className="back-button mt-2">
           Back to Home
         </Button>
