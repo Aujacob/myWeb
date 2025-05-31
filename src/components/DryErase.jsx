@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import "./componentCSS/Polaroid.css";
 
-const acrylics = [
+const polaroids = [
     {
     title: "Winter Fever",
     description: "Life in motion during a busy afternoon.",
@@ -22,10 +22,10 @@ const acrylics = [
   // Add more as needed
 ];
 
-const AcrylicGallery = () => {
+const MarkerGallery = () => {
   return (
     <Container className="polaroid-gallery py-5">
-      <h1 className="text-center mb-4">Acrylic</h1>
+      <h1 className="text-center mb-4">Polaroid Series I - Winter</h1>
       <Row className="g-4 justify-content-center">
         {polaroids.map((photo, idx) => (
           <Col key={idx} xs={12} sm={8} md={6} lg={4}>
@@ -47,4 +47,4 @@ const AcrylicGallery = () => {
   );
 };
 
-export default AcrylicGallery;
+export default MarkerGallery;
